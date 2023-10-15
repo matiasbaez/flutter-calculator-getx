@@ -22,7 +22,7 @@ class CalculatorButton extends StatelessWidget {
     // Button
     final buttonStyle = TextButton.styleFrom(
         backgroundColor: this.bgColor,
-        primary: Colors.white,
+        foregroundColor: Colors.white,
         shape: StadiumBorder(),
     );
 
